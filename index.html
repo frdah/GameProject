@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HoboChess</title>
+    <link rel="stylesheet" href="mainstyle.css" />
+  </head>
+  <body>
+    <div id="titleDiv">
+      <ul>
+        <li>
+          <div class="yellowcircle"><div class="smallcircleyellow"></div></div>
+        </li>
+        <li>
+          <div class="purplecircle"><div class="smallcirclepurple"></div></div>
+        </li>
+        <li><h1 id="headline">HoboChess</h1></li>
+      </ul>
+    </div>
+    <div id="mainContent">
+      <div id="text">
+        <p class="hidden" id="winner">
+          Winner: <img src="" alt="" id="winnerPic" />
+        </p>
+        <p id="turn">Yellow players turn!</p>
+        <p id="totalmoves">Total moves:</p>
+        <p class="hidden" id="winner">
+          Winner: <img src="" alt="" id="winnerPic" />
+        </p>
+        <p id="boardSize">Chosen board size:</p>
+        <a href="start.html"
+          ><p class="hidden" id="restartButton">Press to play again</p></a
+        >
+      </div>
+      <div id="board"></div>
+    </div>
+
+    <script src="main.js" type="application/javascript"></script>
+  </body>
+</html>
